@@ -112,3 +112,15 @@ This tool is for educational purposes only. Use it at your own risk! The creator
 - Follow the provided GPIO pin layout for both the HSPI and VSPI configurations to ensure proper operation.
 
 ---
+
+### Special Thanks
+A big thank you to **Emensta** and **Zipher** for inspiring me to create this project. Their work and creativity have been a major source of motivation throughout this journey.
+
+### 💖 Support My Work
+
+If you enjoy this project and want to support future development, feel free to donate! Your contribution helps me create more open-source projects like this.
+
+💳 [Donate via GCash](https://github.com/KEI4251/ESP32-Jammer-/blob/files/imgs/gcash.jpg)  
+💳 [Donate via PayPal](https://www.paypal.com/paypalme/CONTRERAS4251)
+
+Thank you for your support! 🙏
