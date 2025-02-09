@@ -1,0 +1,18 @@
+{
+    "main": {
+      "url": "https://raw.githubusercontent.com/Joshua4251/KEI-ESP32-JAMMER/BIN/ESP32_JAMMER_BY_KEI.ino.bin",
+      "size": 0,
+      "flash_size": "4MB"
+    },
+    "bootloader": {
+      "url": "https://raw.githubusercontent.com/Joshua4251/KEI-ESP32-JAMMER/BIN/ESP32_JAMMER_BY_KEI.bootloader.bin",
+      "size": 0,
+      "flash_size": "1MB"
+    },
+    "partitions": {
+      "url": "https://raw.githubusercontent.com/Joshua4251/KEI-ESP32-JAMMER/BIN/ESP32_JAMMER_BY_KEI.partitions.bin",
+      "size": 0,
+      "flash_size": "1MB"
+    }
+  }
+  
