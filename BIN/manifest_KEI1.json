@@ -6,15 +6,15 @@
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "https://raw.githubusercontent.com/KEI4251/ESP32-Jammer-/main/BIN/ESP32_JAMMER_BY_KEI2.ino.bootloader.bin",
+          "path": "https://raw.githubusercontent.com/KEI4251/ESP32-Jammer-/files/BIN/ESP32_JAMMER_BY_KEI2.ino.bootloader.bin",
           "offset": "0x1000"
         },
         {
-          "path": "https://raw.githubusercontent.com/KEI4251/ESP32-Jammer-/main/BIN/ESP32_JAMMER_BY_KEI2.ino.partitions.bin",
+          "path": "https://raw.githubusercontent.com/KEI4251/ESP32-Jammer-/files/BIN/ESP32_JAMMER_BY_KEI2.ino.partitions.bin",
           "offset": "0x8000"
         },
         {
-          "path": "https://raw.githubusercontent.com/KEI4251/ESP32-Jammer-/main/BIN/ESP32_JAMMER_BY_KEI2.ino.bin",
+          "path": "https://raw.githubusercontent.com/KEI4251/ESP32-Jammer-/files/BIN/ESP32_JAMMER_BY_KEI2.ino.bin",
           "offset": "0x10000"
         }
       ]
