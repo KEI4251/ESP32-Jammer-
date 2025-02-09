@@ -2,6 +2,8 @@
 
 ![Insert Image of ESP32 Jammer Here](https://github.com/KEI4251/ESP32-Jammer-/blob/files/imgs/esp32%20jammer.jpg)
 
+### ⚠️ NOTE: This project is for **educational purposes only**. Signal jamming is **illegal** in many regions. Use responsibly and comply with local laws. ⚠️
+
 ### KEI 2.4GHz Jammer Overview
 the **KEI 2.4GHz Jammer** operates in the 2.4 GHz frequency range, utilizing an **ESP32** and **nRF24 PA LNA** module to interfere with signals within this band. It is capable of disrupting various wireless communications, including **Bluetooth**, **BLE (Bluetooth Low Energy)**, **Wi-Fi**, and **RC (Remote Control) drones**.
 
