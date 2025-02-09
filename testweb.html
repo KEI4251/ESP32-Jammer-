@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>KEI JAMMER Installer</title>
+    <meta name="description" content="Easily allow users to install KEI JAMMER firmware." />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="color-scheme" content="dark" />
+
+    <style>
+      body {
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
+        background-color: black;
+        color: white;
+        padding: 0;
+        margin: 0;
+        line-height: 1.4;
+        text-align: center;
+      }
+
+      .content {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 36px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 30px;
+      }
+
+      .firmware-box {
+        display: inline-block;
+        padding: 15px 30px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #333;
+        border: 2px solid #03a9f4;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .firmware-box:hover {
+        background-color: #03a9f4;
+        color: black;
+      }
+
+      .firmware-box.active {
+        background-color: #03a9f4;
+        color: black;
+      }
+
+      .footer {
+        margin-top: 40px;
+        border-top: 1px solid #444;
+        padding-top: 20px;
+        font-size: 14px;
+        color: #888;
+      }
+
+      .update-details {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 10px;
+        font-size: 14px;
+        border: 1px solid #03a9f4;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .update-title {
+        font-weight: bold;
+        font-size: 16px;
+      }
+
+      .update-content {
+        margin-top: 5px;
+      }
+
+      ul {
+        text-align: left;
+        margin-left: 20px;
+      }
+
+      .warning {
+        color: yellow;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+
+      .warning-icon {
+        font-size: 24px;
+        margin-right: 5px;
+      }
+    </style>
+
+    <script type="module" src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"></script>
+  </head>
+  <body>
+    <div class="content">
+      <h1>KEI JAMMER FLASHER</h1>
+      <p>Choose your firmware</p>
+
+      <div class="firmware-box" id="kei1" onclick="selectFirmware('KEI1')">KEI1 Firmware</div>
+
+      <p class="button-row" align="center">
+        <esp-web-install-button class="invisible"></esp-web-install-button>
+      </p>
+
+      <div class="footer">
+        <p>This is for educational purposes only. I am not responsible for your actions.</p>
+      </div>
+    </div>
+
+    <!-- Details Box at the Bottom -->
+    <div class="update-details">
+      <div class="update-title">KEI Firmware - Version 1.2 Update</div>
+      <div class="update-content">
+        <p><strong>Changes:</strong></p>
+        <ul>
+          <li>Added a debounce delay to the button press to prevent the modes from changing twice in a row.</li>
+          <li>This update ensures the button press is only recognized once within a 200ms interval.</li>
+        </ul>
+        <p><strong>Note:</strong> This update improves the user experience by preventing accidental double presses and mode switching.</p>
+      </div>
+    </div>
+
+    <!-- Warning Section -->
+    <div class="warning">
+      <span class="warning-icon">⚠️</span>
+      <p>This tool is for educational purposes only. Use it at your own risk! We are not responsible for any damage or misuse.</p>
+    </div>
+
+    <script>
+      function selectFirmware(firmware) {
+        const firmwareBox = document.getElementById('kei1');
+        const button = document.querySelector('esp-web-install-button');
+
+        firmwareBox.classList.add('active'); // Highlight the selected firmware
+        button.manifest = `https://raw.githubusercontent.com/KEI4251/ESP32-Jammer-/main/BIN/manifest_KEI1.json`;
+        button.classList.remove('invisible');
+      }
+    </script>
+  </body>
+</html>
