@@ -65,7 +65,7 @@ Keep in mind that the range of the jammer may vary depending on the environment 
 
 To easily flash the ESP32 with the KEI Jammer firmware, visit the [Web Flasher](https://kei4251.github.io/ESP32-Jammer-/).
 
-![Insert Screenshot of Web Flasher Here](https://github.com/KEI4251/ESP32-Jammer-/blob/main/imgs/Screenshot%20(61).png)
+![Insert Screenshot of Web Flasher Here](https://github.com/KEI4251/ESP32-Jammer-/blob/files/imgs/WEBFLASHER.png)
 
 ### How to Use the Web Flasher
 
