@@ -1,6 +1,6 @@
 <h1 align="center">ESP32 2.4GHz Jammer by KEI</h1>
 
-![Insert Image of ESP32 Jammer Here](https://github.com/KEI4251/ESP32-Jammer--/blob/files/imgs/esp32%20jammer.jpg)
+![Insert Image of ESP32 Jammer Here](https://github.com/KEI4251/ESP32-Jammer-/blob/files/imgs/esp32%20jammer.jpg)
 
 ### KEI 2.4GHz Jammer Overview
 the **KEI 2.4GHz Jammer** operates in the 2.4 GHz frequency range, utilizing an **ESP32** and **nRF24 PA LNA** module to interfere with signals within this band. It is capable of disrupting various wireless communications, including **Bluetooth**, **BLE (Bluetooth Low Energy)**, **Wi-Fi**, and **RC (Remote Control) drones**.
@@ -57,9 +57,9 @@ Keep in mind that the range of the jammer may vary depending on the environment 
 |                     |                             | Switch out        |  5V  |
 ## nRF24L01 and ESP32 Images
 
-![Insert Image of nRF24L01 Here](https://github.com/KEI4251/ESP32-Jammer--/blob/files/imgs/nRF24L01%20pin%20out.png)
+![Insert Image of nRF24L01 Here](https://github.com/KEI4251/ESP32-Jammer-/blob/files/imgs/nRF24L01%20pin%20out.png)
 
-![Insert Image of ESP32 Here](https://github.com/KEI4251/ESP32-Jammer--/blob/files/imgs/esp32%20wroom32%20u%20picture.jpeg)
+![Insert Image of ESP32 Here](https://github.com/KEI4251/ESP32-Jammer-/blob/files/imgs/esp32%20wroom32%20u%20picture.jpeg)
 
 ## Web Flasher
 
