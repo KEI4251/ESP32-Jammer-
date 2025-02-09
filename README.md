@@ -57,7 +57,7 @@ Keep in mind that the range of the jammer may vary depending on the environment 
 |                     |                             | Switch out        |  5V  |
 ## nRF24L01 and ESP32 Images
 
-![Insert Image of nRF24L01 Here](https://github.com/KEI4251/ESP32-Jammer-/blob/main/imgs/nRF24L01%20pin%20out.png)
+![Insert Image of nRF24L01 Here](https://github.com/KEI4251/ESP32-Jammer--/blob/files/imgs/nRF24L01%20pin%20out.png)
 
 ![Insert Image of ESP32 Here](https://github.com/KEI4251/ESP32-Jammer--/blob/files/imgs/esp32%20wroom32%20u%20picture.jpeg)
 
