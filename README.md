@@ -12,6 +12,8 @@
   <a href="https://github.com/KEI4251/ESP32-Jammer-/blob/main/README.md#gpio-pin-layout-for-esp32-and-nrf24">🔌 GPIO Pin Layout</a>
     <span> | </span>
   <a href="https://github.com/KEI4251/ESP32-Jammer-/blob/main/README.md#web-flasher">💻 Web Flasher</a>
+    <span> | </span>
+  <a href="https://github.com/KEI4251/ESP32-Jammer-?tab=readme-ov-file#-support-my-work">💖 Support My Work</a>
 </h4>
 
 ### KEI 2.4GHz Jammer Overview
