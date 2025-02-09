@@ -15,6 +15,7 @@ Keep in mind that the range of the jammer may vary depending on the environment 
 
 - 1x ESP32-WROOM-32U
 - 2x nRF24L01 PA/LNA Module
+- Pcb board
 - Jumper wires
 - 10uF Capacitors for stable operation (optional but recommended)
 - 3.7v battery (optional)
