@@ -123,7 +123,7 @@ A big thank you to **Emensta** and **Zipher** for inspiring me to create this pr
 If you enjoy this project and want to support future development, feel free to donate! Your contribution helps me create more open-source projects like this.
 
 💳 [Donate via GCash](https://github.com/KEI4251/ESP32-Jammer-/blob/files/imgs/gcash.jpg)  
-💳 [Donate via PayPal](https://www.paypal.com/paypalme/CONTRERAS4251)
-💳 [Donate Via Gotyme Bank](https://github.com/KEI4251/ESP32-Jammer-/blob/files/imgs/GOtyme.jpg)
+💳 [Donate via PayPal](https://www.paypal.com/paypalme/CONTRERAS4251)  
+💳 [Donate Via Gotyme Bank](https://github.com/KEI4251/ESP32-Jammer-/blob/files/imgs/GOtyme.jpg)  
 
 Thank you for your support! 🙏
