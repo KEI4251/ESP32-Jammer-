@@ -124,6 +124,6 @@ If you enjoy this project and want to support future development, feel free to d
 
 💳 [Donate via GCash](https://github.com/KEI4251/ESP32-Jammer-/blob/files/imgs/gcash.jpg)  
 💳 [Donate via PayPal](https://www.paypal.com/paypalme/CONTRERAS4251)
-💳 [Donate Via Gotyme Bank]()
+💳 [Donate Via Gotyme Bank](https://github.com/KEI4251/ESP32-Jammer-/blob/files/imgs/GOtyme.jpg)
 
 Thank you for your support! 🙏
