@@ -120,7 +120,7 @@ A big thank you to **Emensta**,**smoochie** and **Zipher** for inspiring me to c
 
 ### 💖 Support My Work
 
-If you enjoy this project and want to support future development, feel free to donate! Your contribution helps me create more open-source projects like this.
+If you enjoy this project and want to support future development, feel free to donate! Your contribution helps me create more projects like this.
 
 💳 [Donate via GCash](https://github.com/KEI4251/ESP32-Jammer-/blob/files/imgs/gcash.jpg)  
 💳 [Donate via PayPal](https://www.paypal.com/paypalme/CONTRERAS4251)  
