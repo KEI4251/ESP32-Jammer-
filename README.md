@@ -1,6 +1,6 @@
 <h1 align="center">ESP32 2.4GHz Jammer by KEI</h1>
 
-![Insert Image of ESP32 Jammer Here](https://github.com/KEI4251/ESP32-Jammer-/blob/files/imgs/esp32%20jammer.jpg)
+![Insert Image of ESP32 Jammer Here](https://github.com/KEI4251/ESP32-Jammer-/blob/files/imgs/jammer%20photo.jpg)
 
 ### ⚠️ NOTE: This project is for **educational purposes only**. Signal jamming is **illegal** in many regions. Use responsibly and comply with local laws. ⚠️
 
