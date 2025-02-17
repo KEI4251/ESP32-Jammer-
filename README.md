@@ -116,7 +116,7 @@ This tool is for educational purposes only. Use it at your own risk! The creator
 ---
 
 ### Special Thanks
-A big thank you to **Emensta**,**smoochie** and **Zipher** for inspiring me to create this project. Their work and creativity have been a major source of motivation throughout this journey.
+A big thanks to **Emensta**,**smoochie**,**DivineZeal** and **Zipher** for inspiring me to create this project. Their work and creativity have been a major source of motivation throughout this journey.
 
 ### 💖 Support My Work
 
