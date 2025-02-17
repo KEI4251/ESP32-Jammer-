@@ -74,6 +74,7 @@
         max-width: 500px;
         margin-left: auto;
         margin-right: auto;
+        display: none;
       }
 
       .update-title {
@@ -100,9 +101,27 @@
         font-size: 24px;
         margin-right: 5px;
       }
+
+      .update-drawer {
+        cursor: pointer;
+        color: #03a9f4;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        border: 2px solid #03a9f4;
+        border-radius: 10px;
+        transition: background-color 0.3s, color 0.3s;
+        margin-top: 20px;
+      }
+
+      .update-drawer:hover {
+        background-color: #03a9f4;
+        color: black;
+      }
     </style>
 
-    <script type="module" src="https://unpkg.com/esp-web-tools@10.1.0/dist/web/connect-button.js?module"></script>
+    <script type="module" src="https://unpkg.com/esp-web-tools@10.1.0/dist/web/install-button.js"></script>
   </head>
   <body>
     <div class="content">
@@ -120,16 +139,26 @@
       </div>
     </div>
 
-    <!-- Details Box at the Bottom -->
-    <div class="update-details">
-      <div class="update-title">KEI Firmware - Version 1.2 Update</div>
+    <!-- Update Drawer Toggle -->
+    <div class="update-drawer" onclick="toggleUpdates()">Click to view update details</div>
+
+    <!-- Update Details (Initially Hidden) -->
+    <div class="update-details" id="update-details">
+      <div class="update-title">New Update - Version 1.3</div>
+      <div class="update-content">
+        <p><strong>Changes:</strong></p>
+        <ul>
+          <li>Reverted debounce delay to 50ms.</li>
+          <li>Added LED indicator for modes.</li>
+        </ul>
+      </div>
+      <div class="update-title">Previous Update - Version 1.2</div>
       <div class="update-content">
         <p><strong>Changes:</strong></p>
         <ul>
           <li>Added a debounce delay to the button press to prevent the modes from changing twice in a row.</li>
           <li>This update ensures the button press is only recognized once within a 200ms interval.</li>
         </ul>
-        <p><strong>Note:</strong> This update improves the user experience by preventing accidental double presses and mode switching.</p>
       </div>
     </div>
 
@@ -147,6 +176,11 @@
         firmwareBox.classList.add('active'); // Highlight the selected firmware
         button.manifest = `https://raw.githubusercontent.com/KEI4251/ESP32-Jammer-/files/BIN/manifest_KEI1.json`;
         button.classList.remove('invisible');
+      }
+
+      function toggleUpdates() {
+        const updateDetails = document.getElementById('update-details');
+        updateDetails.style.display = updateDetails.style.display === 'none' || updateDetails.style.display === '' ? 'block' : 'none';
       }
     </script>
   </body>
