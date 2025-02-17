@@ -1,6 +1,6 @@
 {
   "name": "KEI Jammer",
-  "version": "1.0",
+  "version": "1.2",
   "builds": [
     {
       "chipFamily": "ESP32",
